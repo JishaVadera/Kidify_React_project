@@ -6,21 +6,22 @@ import { useRef, useState } from 'react';
 // import { Navbar } from 'react-bootstrap';
 // import Navbar from './Page/Navbar';
 // import Dropdown1 from './Drop';
-
+import Login from './Page/Login';
 
 function App() {
 
 
   return (
     <>
+    <Login/>
     {/* <Navbar/> */}
     {/* <Dropdown1/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
-        </Routes>
-      </BrowserRouter>
+        </Routes> */}
+      {/* </BrowserRouter> */}
       {/* <Sign_in/> */}
       {/* <Navbar/> */}
     </>

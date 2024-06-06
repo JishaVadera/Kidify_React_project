@@ -8,6 +8,7 @@ const Home = () => {
     <div>
       <div>
       <FiPhone className='border rounded-lg border-orange-600  bg-orange-600 size-2'/>
+      
       </div>
     </div>
   )
