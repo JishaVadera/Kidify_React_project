@@ -13,15 +13,15 @@ function App() {
 
   return (
     <>
-    <Login/>
+    {/* <Login/> */}
     {/* <Navbar/> */}
     {/* <Dropdown1/> */}
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
-        </Routes> */}
-      {/* </BrowserRouter> */}
+        </Routes>
+      </BrowserRouter>
       {/* <Sign_in/> */}
       {/* <Navbar/> */}
     </>
