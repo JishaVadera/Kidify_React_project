@@ -8,6 +8,8 @@ import Col from 'react-bootstrap/Col';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Feedinsta from '../Page/Feedinsta';
+import Footer from '../Page/Footer';
 
 const About = () => {
   const settings = {
@@ -106,23 +108,25 @@ const About = () => {
       <div className='container-fluid  bg-fuchsia-200 mb-24 pb-20'>
         <h3 className='font-bold text-3xl pl-24 ml-36 pt-5 mb-9'>Our Gallery</h3>
         <div className='flex justify-center items-center '>
-          <img src="./src/assets/pic2.png" alt="" srcset="" height="480px" width="430px" className='pl-24 transition duration-100 ease-out hover:scale-[1.05]' />
           <div className=''>
             <Row className='mb-4'>
+              <Col className='rows-span-2'>
+                <img src="./src/assets/pic2.png" alt="" srcset="" height="480px" width="430px" className='pl-24 transition duration-100 ease-out hover:scale-[1.05]' />
+              </Col>
               <Col>
                 <img src="./src/assets/pic6.png" alt="" width="400px" className='pl-5 h-56 transition duration-100 ease-out hover:scale-[1.05]' />
               </Col>
               <Col>
                 <img src="./src/assets/pic.png" alt="" srcset="" width="400px" className='pl-5 h-56 transition duration-100 ease-out hover:scale-[1.05]' />
               </Col>
-            </Row>
-            <Row>
-              <Col>
-                <img src="./src/assets/pic4.png" alt="" width="400px" className='pl-5 h-56 transition duration-100 ease-out hover:scale-[1.05]' />
-              </Col>
-              <Col>
-                <img src="./src/assets/pic5.png" alt="" srcset="" width="400px" className='pl-5 h-56 transition duration-100 ease-out hover:scale-[1.05]' />
-              </Col>
+              <Row className='cols-span-2'>
+                <Col>
+                  <img src="./src/assets/pic4.png" alt="" width="400px" className='pl-5 h-56 transition duration-100 ease-out hover:scale-[1.05]' />
+                </Col>
+                <Col>
+                  <img src="./src/assets/pic5.png" alt="" srcset="" width="400px" className='pl-5 h-56 transition duration-100 ease-out hover:scale-[1.05]' />
+                </Col>
+              </Row>
             </Row>
           </div>
         </div>
@@ -134,8 +138,8 @@ const About = () => {
         <h1 className='text-center text-indigo-800 font-bold text-4xl mb-8'>OUR HAPPY CUSTOMER </h1>
         <div className="max-w-[1400px] mx-auto mb-16">
           <Slider {...settings}>
-            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
-              <p className='text-center'>
+            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96 '>
+              <p className='!text-center'>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
                 designs are unique and stylish. I always receive <br />
@@ -144,7 +148,7 @@ const About = () => {
               </p>
             </div>
             <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
-              <p className='text-justify'> 
+              <p className='!text-center'>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
                 designs are unique and stylish. I always receive <br />
@@ -161,7 +165,7 @@ const About = () => {
                 store. Definitely my new go-to for trendy outfits."<br />
               </p>
             </div>
-            <div>
+            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
               <p>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
@@ -170,7 +174,7 @@ const About = () => {
                 store. Definitely my new go-to for trendy outfits."<br />
               </p>
             </div>
-            <div>
+            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
               <p>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
@@ -179,7 +183,7 @@ const About = () => {
                 store. Definitely my new go-to for trendy outfits."<br />
               </p>
             </div>
-            <div>
+            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
               <p>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
@@ -188,7 +192,7 @@ const About = () => {
                 store. Definitely my new go-to for trendy outfits."<br />
               </p>
             </div>
-            <div>
+            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
               <p>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
@@ -197,7 +201,7 @@ const About = () => {
                 store. Definitely my new go-to for trendy outfits."<br />
               </p>
             </div>
-            <div>
+            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
               <p>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
@@ -206,7 +210,7 @@ const About = () => {
                 store. Definitely my new go-to for trendy outfits."<br />
               </p>
             </div>
-            <div>
+            <div className='shadow-green-950 shadow-2xl border rounded-lg !w-96'>
               <p>
                 "I recently discovered this fashi0on shop and I am <br />
                 obsessed! The clothes are of great quality and the <br />
@@ -218,6 +222,40 @@ const About = () => {
           </Slider>
         </div>
       </div>
+
+      {/* ------------------------------Section-9------------------------------------------------------------ */}
+
+      <div className='container-xxl'>
+        <h1 className='text-3xl font-bold pl-24 mb-6'>Our Stories</h1>
+        <p className='text-[20px]  pl-24 mb-6'>
+          Ex quos nemo a voluptatum delectus et totam soluta sit illo voluptatem in consequuntur sunt vel
+          doloremque sunt eos nihil quas. Ut odit velit cum maxime corrupti qui quia corporis quo explicabo autem
+          et fugit omnis aut fugiat quia sit molestias ipsam. Sit nihil quod non corrupti reprehenderit At saepe
+          ducimus aut dolorem dolorum eum ratione expedita ab aliquid minima. A illum voluptas et inventore totam
+          eum inventore enim in obcaecati aspernatur ea aliquam pariatur.
+        </p>
+        <p className='pl-24 text-[20px]  mb-6'>
+          Ad magnam rerum quo magni rerum ut accusamus vitae ut nobis voluptatum est dicta voluptate et libero
+          similique. Sit harum porro non illum voluptatibus eum suscipit facere. Rem dolores dolorum ut doloribus
+          impedit sed expedita quasi qui doloremque consequuntur eum vitae perferendis qui fugit temporibus.
+        </p>
+        <p className='pl-24 text-[20px]  mb-6'>
+          Est exercitationem natus eos repudiandae cumque ex voluptas officiis cum laborum aspernatur. Vel
+          accusantium laborum qui modi praesentium hic quia consequatur ea nihil expedita aut tempore illum. Vel
+          vitae praesentium sit neque delectus sit magnam tenetur ea blanditiis consequuntur cum quaerat sapiente
+          in cumque molestias qui quibusdam inventore. Rem facere esse non ipsum quisquam et fugiat
+          accusantium ut maxime blanditiis cum quis sint?
+        </p>
+      </div>
+
+      {/* ------------------------------Section-10------------------------------------------------------------ */}
+
+      <Feedinsta />
+
+
+      {/* ------------------------------Section-11------------------------------------------------------------ */}
+
+        <Footer/>
     </>
   )
 }

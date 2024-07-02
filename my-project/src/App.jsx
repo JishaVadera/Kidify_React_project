@@ -6,7 +6,7 @@ import { useRef, useState } from 'react';
 // import { Navbar } from 'react-bootstrap';
 // import Navbar from './Page/Navbar';
 // import Dropdown1 from './Drop';
-import Login from './Page/Login';
+// import Login from './Page/Login';
 
 function App() {
 
@@ -21,9 +21,10 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
       {/* <Sign_in/> */}
       {/* <Navbar/> */}
+
     </>
   )
 }
